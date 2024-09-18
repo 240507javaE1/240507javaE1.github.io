@@ -3,64 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Viewer</title>
-  <style>
-    body{font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-         margin: 0;
-        text-align: center;
-        }
-    h1 {
-        margin-bottom: 10px;
-        }
-    .pdf-container {
-            width: 95%;
-            height: 95%;
-            margin-top: 20px;
-            border: 1px solid #ccc;
-        }
-    iframe, embed {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    .spacer {
-            height: 20px; /* Adjust this value to control the spacing */
-        }
-    </style>
+  <title>mypage-PDFviewer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>java職訓學員E1個人網站</h1>
 <-- *個人網站示範用假設情境, 連結內容也為示範例, 非真正專題成果* --><br>
-<a href="./TeamProject/index.html">我們的職訓課程最後專題成果(上下2個連結是一樣的)</a>
-<a href="https://240507javaE1.github.io/TeamProject/index.html">感謝組長伊倫、小組成員(Miffy、意文、roNG)共同製作</a>
+<!--<a href="./TeamProject/index.html">我們的職訓課程專題預想(上下2個連結是一樣的)</a>-->
+<a href="https://240507javaE1.github.io/TeamProject/index.html">我們的職訓課程專題預想，感謝組長伊倫、小組成員(Miffy、意文、roNG)共同討論製作</a>
 <br><-- *個人網站示範用假設情境, 連結內容也為示範例, 非真正專題成果* -->
+<a href="https://github.com/240507javaE1" class="btn btn-primary btn-lg">github個人頁</a>
+<a href="https://profile.104.com.tw/eUWoxtSxMiw" class="btn btn-primary btn-lg">104個人頁</a>
+<a href="https://www.linkedin.com/in/%E5%BB%B7%E5%AE%87-%E9%99%B3-13a787273/" class="btn btn-primary btn-lg">LinkedIn個人頁</a>
 <h2>My Resume</h2>
 <!--
-    <div class="pdf-container">
-        <iframe src="104_myResume.pdf"></iframe>
-    </div>
-
-    <div class="spacer"></div>
+<div class="pdf-container">
+  <iframe src="104_myResume.pdf"></iframe>
+</div>
+<div class="spacer"></div>
 -->
-
-    <div class="pdf-container">
-        <embed src="104_myResume.pdf" type="application/pdf"/>
-    </div>
-
-
+<div class="pdf-container">
+  <embed src="104_myResume.pdf" type="application/pdf"/>
+</div>
 <!--
 <iframe src="104_myResume.pdf"></iframe>
-
-
-
-
 <embed src="104_myResume.pdf" type="application/pdf">
 -->
 </body>
